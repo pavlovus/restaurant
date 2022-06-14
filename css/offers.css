@@ -1,0 +1,27 @@
+.section-2 {
+    padding-bottom: 200px;
+    padding-top: 36px;
+}
+
+
+
+
+.offers__button {
+    background-color: #ff4e50;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.offers___button:hover {
+    background-color: orangered;
+}
+
+.offers___button:active {
+    transform: scale(1.1);
+}
