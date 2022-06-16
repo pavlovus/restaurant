@@ -1,11 +1,30 @@
 .section-2 {
-    padding-bottom: 200px;
-    padding-top: 36px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.offers__list{
+    display: flex;
+    justify-content: space-between;
+}
+.offers__item{
+    text-align: center;
+    flex: 1;
+}
+.offers__title {
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin:12px 0;
+    display: inline-block;
+    max-width: 600px;
 }
 
-
-
-
+.offers__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
 .offers__button {
     background-color: #ff4e50;
     font-family: Montserrat;
@@ -17,11 +36,15 @@
     border-radius: 50px;
     cursor: pointer;
 }
-
-.offers___button:hover {
+.offers__button:hover {
     background-color: orangered;
 }
 
-.offers___button:active {
+.offers__button:active {
     transform: scale(1.1);
+}
+.offers__img{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
 }
