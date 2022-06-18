@@ -51,3 +51,9 @@
     font-size: 14px;
     color: rgb(185, 185, 185);
 }
+.up{
+    cursor: pointer;
+}
+.up__arrow:hover{
+    transform: scale(1.2);
+}
