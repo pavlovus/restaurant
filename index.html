@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="/js/arrows.js" defer></script>
+    <script src="/js/popup.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                             <li class="nav__item">
                                 <a href="#" class="nav__link">Menu</a>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Feedback</a>
+                                <a href="#" class="nav__link feedback">Feedback</a>
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__link">Contact</a>
@@ -144,17 +145,30 @@
                 </footer>
                 <div class="popup">
                     <div class="popup__content">
-                        <form action="" class="popup__form">
-                            <div class="popup__title">Here you can leave your suggestions and comments</div>
-                            <label for="" class="popup__label">
+                        <button class="popup__close"></button>
+                        <form class="popup__form">
+                            <div class="popup__title">Here you can leave your suggestions and comments about the service in our restaurant</div>
+                            <label class="popup__label">
                                 <div class="popup__sub">Name</div>
-                                <input type="text" class="popup__input" placeholder="Your name">
+                                <div class="popup__input-wrapp">
+                                    <input type="text" class="popup__input">
+                                </div>
                             </label>
-                            <label for="" class="popup__label">
+                            <label class="popup__label">
+                                <div class="popup__sub">Email</div>
+                                <div class="popup__input-wrapp email">
+                                    <input type="email" class="popup__input">
+                                </div>
+                            </label>
+                            <label class="popup__label">
                                 <div class="popup__sub">Your response</div>
                                 <textarea class="popup__textarea popup__input" id="" placeholder="Enter text"></textarea>
                             </label>
+                            <div class="popup__button">
+                                <button class="button" type="submit">Send</button>
+                            </div>
                         </form>
+                        <div class="popup__subtitle">Thanks for your feedback</div>
                     </div>
                 </div>
             </div>

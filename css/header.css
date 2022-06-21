@@ -65,19 +65,6 @@
 .soc__item:last-child {
     margin-right: 0;
 }
-.phone {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 14px;
-    color: rgb(185, 185, 185);
-    margin-right: 30px;
-}
-.email {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 14px;
-    color: rgb(185, 185, 185);
-}
 .soc__text{
     font-family: Montserrat;
     font-weight: bold;
