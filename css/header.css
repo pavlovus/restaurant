@@ -28,7 +28,12 @@
     color: white;
     text-transform: uppercase;
 }
-.selected{
+.nav__link--contacts{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.nav__link--selected{
     color: orangered;
     border: 2px orangered solid;
     padding: 11px 11px 11px 11px;
@@ -40,6 +45,7 @@
 }
 .nav__item{
     margin-right: 30px;
+    position: relative;
 }
 .nav__item:last-child{
     margin-right: 0;
@@ -75,4 +81,31 @@
 }
 .soc{
     display: flex;
+}
+.contacts--header{
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    right: 0;
+    top: 42px;
+    padding: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+    transition-delay: 0.3s;
+}
+.contacts--header::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(44, 44, 44);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -7px;
+    right: 15px;
+}
+.contacts--active{
+    visibility: visible;
+    opacity: 1;
 }

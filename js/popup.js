@@ -1,5 +1,5 @@
 let popup = document.querySelector(".popup")
-let openPopupButton = document.querySelector(".feedback")
+let openPopupButton = document.querySelector(".nav__link--feedback")
 let closePopupButton = document.querySelector(".popup__close")
 let popupForm = document.querySelector(".popup__form")
 let popupSubtitle = document.querySelector(".popup__subtitle")
