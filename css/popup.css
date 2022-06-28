@@ -136,6 +136,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
+    cursor: pointer;
 }
 .popup__close:hover{
     background-image: url(/img/close1.png);
@@ -166,4 +167,34 @@
 }
 .popup__subtitle--submited{
     opacity: 1;
+}
+.popup__content--small{
+    
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popup__contact{
+    display: block;
+    color: #00ae86;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+.popup__text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(33, 33, 33);
+    letter-spacing: 0.13px;
+}
+.logo__link--black{
+    color: black;
+    font-size: 30px;
+    cursor: text;
 }

@@ -21,3 +21,18 @@ function submitPopupForm(e) {
     popupSubtitle.classList.add('popup__subtitle--submited')
 }
 popupForm.addEventListener('submit', submitPopupForm)
+
+
+let popupSmall = document.querySelector(".popup--reserv")
+let popupContentSmall = document.querySelector(".popup__content--small")
+let openPopupSmallButton = document.querySelector(".preview__button")
+let closePopupSmallButton = document.querySelector(".popup__close--small")
+openPopupSmallButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    popupSmall.classList.add('popup--active')
+    popupContentSmall.classList.add('popup__content--active')
+})
+closePopupSmallButton.addEventListener('click', () => {
+    popupSmall.classList.remove('popup--active')
+    popupContentSmall.classList.remove('popup__content--active')
+})
