@@ -131,6 +131,7 @@
     width: 30px;
     height: 30px;
     background-image: url(/img/close.png);
+    fill: black;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
