@@ -5,7 +5,15 @@
 }
 .menu{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 70px;
+}
+.menu__section{
+    max-height: 1315px;
+    overflow: hidden;
+    transition: all .8s;
+}
+.menu__section--active{
+    max-height: 55px;
 }
 .menu__title {
     font-family: Montserrat;
@@ -45,7 +53,7 @@
     width: 20px;
     height: 20px;
     transform: rotate(-180deg);
-    transition: .5s;
+    transition: .8s;
 }
 .menu__icon--active{
     transform: rotate(0deg);
@@ -54,9 +62,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 15px;
-}
-.menu__list--active{
-    
 }
 .menu__item{
     height: 400px;
