@@ -67,3 +67,21 @@
 li.selected {
     background-color: white;
 }
+.slider__title {
+    font-weight: Bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    margin-top: 0;
+    display: inline-block;
+    max-width: 600px;
+}
+
+.slider__text {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 33px;
+}
