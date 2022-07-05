@@ -5,8 +5,8 @@ const sliderDots = document.querySelector('.slider__dots')
 let sliderTitle = document.querySelector('.slider__title')
 let sliderText = document.querySelector('.slider__text')
 let imgLinks = [
-    "url(../img/bg1.jpg)",
-    "url(../img/bg2.jpg)",
+    "url('./img/bg1.jpg')",
+    "url('./img/bg2.jpg')",
 ]
 let titles = [
     "First offer",
